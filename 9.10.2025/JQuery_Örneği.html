@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<h2>HTML elementlerini tag isimleriyle bulma</h2>
+
+<p>Harry Du Bois</p>
+<p>Kim Kitsuragi</p>
+<p>Jean Vicquemare</p>
+
+<p id="demo"></p>
+
+<script>
+$(document).ready(function() {
+  var myElements = $("p");
+  $("#demo").text("İlk paragraftaki yazı: " + myElements[0].innerHTML);
+});
+</script>
+
+</body>
+</html>
